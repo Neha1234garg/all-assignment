@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>training</title>
+	<script src="jquery-3.1.1.min.js"></script>
+
+	<style type="text/css">
+		.msg{
+			min-height: 100px;
+			border:3px solid red;
+		}
+	</style>
+</head>
+<body>
+<div class="msg">
+	<h3>:logs: </h3>
+</div>
+<button>Click me</button>
+<button id="show">show div</button>
+<button id="hide">hide div</button>
+<script>
+
+$('#show').on('click',function(){
+	$('.msg').css({'display':'block'});
+
+});
+$('#hide').on('click',function(){
+	// $('.msg').css({'display':'none'});
+	//$('.msg').css({'style','display:none'});
+	$('.msg').hide();
+
+
+});
+	
+	$('button').click(function(){
+		//alert("hiiii");
+		//$('.msg').html("sometext");
+		//$('.msg').append("sometext.....");
+
+//FOR SINGLE BUTTON CLICK
+var btn="<button> new button </button>"
+$('.msg').append(btn+"<br/>");
+
+	});
+
+	$('button').on('click',function(){
+
+var btn="<button> new button </button>"
+$('.msg').append(btn+"<br/>");
+
+	});
+
+
+
+$('button').on('mouseover',function(){
+$(this).attr('style','background:red');
+
+}).on('mouseout',function(){
+$(this).attr('style','background:blue');
+});
+
+
+
+
+
+//hover effect
+ $('.msg').on('mouseover',function(){
+ 		$(this).css({'background':'white'});
+// var btn="<button> new button </button>"
+// $('.msg').append(btn+"<br/>");
+
+	}).on('mouseout',function(){
+$(this).css({'background':'red'});
+
+	});
+
+
+
+</script>
+</body>
+</html>

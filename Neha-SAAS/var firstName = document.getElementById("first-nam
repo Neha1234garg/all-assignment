@@ -1,0 +1,12 @@
+
+var firstName = document.getElementById("first-name");
+function fun(){
+  var reg = /^[a-zA-Z ]{2,5}$/;
+  var a = reg.test(firstName.value);
+ // console.log(a);
+  if(!a){
+    
+    alert("plz fill the first name");
+    firstName.value = "";
+  }
+}

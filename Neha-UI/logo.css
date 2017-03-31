@@ -1,0 +1,11 @@
+.header-primary-menu {
+	display: flex;
+	float: left;
+}
+
+.header-primary-menu-item {
+	display: flex;
+	list-style: none;
+	float: right;
+	border-right: 300;
+}

@@ -1,0 +1,186 @@
+.footer {
+	//display: flex;
+}
+
+.footer-section {
+	display: flex;
+	list-style: none;
+}
+
+.footer-section-l1 {
+	padding-top: 20px;
+	padding-left: 25px;
+}
+
+.footer-section-l2 {
+	padding-left: 200px;
+}
+
+.footer-section-l3 {
+	padding-left: 50px;
+	padding-top: 20px;
+}
+
+.footer-section-l4 {
+	padding-left: 60px;
+	padding-top: 20px;
+}
+
+.header-background {
+	color: white;
+	display: flex;
+	list-style: none;
+	background-color: black;
+}
+
+.header-logo {
+	padding-left: 80px;
+}
+
+.header-drop1 {
+	background-color: black;
+	color: white;
+	padding: 20px;
+	border: 0;
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+.header-marketlist {
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+.header-account {
+	padding-left: 400px;
+	padding-top: 20px;
+}
+
+.header-drop2 {
+	background-color: black;
+	color: white;
+	border: 0;
+	margin-top: 17px;
+	font-size: 17px;
+	margin-left: 75px;
+}
+
+.section-registration {
+	padding-left: 141px;
+	text-align: center;
+}
+
+#neha {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-section-drop {
+	color: white;
+	margin-top: 20px;
+}
+
+.hide {
+	display: none;
+}
+
+.header-drop2-ul {
+	list-style-type: none;
+}
+
+.div-common {
+	display: flex;
+}
+
+.ul-common1 {
+	list-style-type: none;
+	margin-left: -104px;
+	margin-top: 62px;
+}
+
+.ul-common {
+	list-style-type: none;
+}
+
+.section-dash {
+	padding-left: 80px;
+}
+
+.ul-common3 {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.text {
+	font-size: 29px;
+}
+
+.menu {
+	margin-top: 10px;
+}
+
+.menu-box {
+	margin-top: 10px;
+}
+
+.link {
+	padding: 8px;
+}
+
+.section-right {
+	border-style: solid;
+	width: 25%;
+	height: 540px;
+	overflow-y: scroll;
+	margin: 50px;
+}
+
+.button-reset {
+	background-color: blue;
+	color: white;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.button-register {
+	background-color: green;
+	color: white;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+#parent-div {
+	font-size: 30px;
+	text-align: center;
+	background-color: lightgrey;
+	display: inline;
+	display: flex;
+	flex-direction: column;
+	margin-left: -40px;
+}
+
+.parent-div-name {
+	font-size: 27px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.parent-div-email {
+	font-size: 27px;
+	display: none;
+	margin-top: 5px;
+}
+
+.parent-div-name:hover + .parent-div-email {
+	font-size: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+#child-button {
+	width: 150px;
+	margin-top: 20px;
+}
