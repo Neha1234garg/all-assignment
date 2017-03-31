@@ -1,0 +1,55 @@
+body{
+	margin: 30px !important;
+	background-color: grey
+}
+span{
+	font-family: verdana;
+	font-style: 18px;
+}
+.cursor-pointer{
+	cursor: pointer;
+}
+.header-primary{
+		/*background-color: black; */
+		color: white; 
+		padding: 20px; 
+		border: 5px solid red; 
+		height: auto;"
+		//align-items: center;
+	}
+	.header-primary-menu{
+
+			display: flex;
+			list-style: none;
+			padding-left: 0;
+			margin-left: auto;
+			align-items: center;
+
+			/*justify-content: center;*/
+		}
+		.header-primary-menu-item{
+
+		}
+		.header-primary-menu-item-logo{
+			background: url('https://billing.hbci.com/QDSEBPP/Graphics/Company/hbc_logo_tagline.png') no-repeat;
+			height: 80px;
+			width: 180px;
+			    display: block;
+			    background-size: contain;
+		}
+		.header-primary-menu-item-link{
+			color: black !important;
+			text-decoration: none;
+			font-family: verdana;
+			font-size: 18px;
+			padding: 10px;
+
+		}
+		.header-primary-menu-item-link:hover{
+			color: blue;
+			background-color: red;
+			
+			padding: 10px;
+			border-radius: 3px; 
+			text-decoration: underline;
+		}

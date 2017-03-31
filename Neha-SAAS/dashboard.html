@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="dashboard.css">
+	<title></title>
+
+</head>
+<body>
+<header> 
+
+
+<ul class="header-background">
+	<li class="header-logo"> <img src="appdirect_footer.png"></li>
+	<!--<li style="padding-left: 30px;"><input type="dropdown" value="MyApps" style="background-color: black; color: white;padding: 20px;"></li>-->
+	<select class="header-drop1">
+		<option>MyApps</option>
+		<option>A</option>
+		<option>B</option>
+	</select>
+	<li class="header-marketlist">MarketPlace</li>
+	<li class="header-account">Account</li>
+	<li class="header-drop2">
+		<a id="neha">Neha Garg</a>
+		<ul class="header-drop2-ul hide" id="dropdown-menu">
+			<li>X</li>
+			<li>A</li>
+			<li>B</li>
+		</ul>
+	</li>
+</ul>
+</header>
+
+
+
+
+<section>
+	<ul style="display: flex; list-style: none;padding-top: 20px;padding-left: 100px">
+		<li style="border-style: solid; align-self: center; width:40%; height: 540px; margin-left: 100px;" class="section-left">
+			<div class="div-common">
+				<ul class="ul-common">
+					<h2 class="section-registration">Registration Page</h2>
+					<li class="menu">
+						<span class="text">First Name</span>
+					</li>	
+					<li class="menu">
+						<span class="text">Last Name</span>
+					</li>
+					<li class="menu">
+						<span class="text">Address(P)</span>
+					</li>
+				</ul>
+				<ul class="ul-common1">
+					<li class="menu-box">
+						<input type="text" id="first-name" name="fname" class="link"><br>			
+					</li>
+					<li class="menu-box">
+						<input type="text" name="lname"  id="lname" class="link" ><br>			
+					</li>
+					<li class="menu-box">
+						<input type="text" name="address1" id="add1" class="link"><br>		
+					</li>
+				</ul>
+			</div>
+			<div>
+				<input type="checkbox"  name="chkbox" id="checkbox"><br>
+			</div>
+			<div class="div-common">
+				<ul class="ul-common">
+					<li class="menu">
+						<span class="text">Address(C)</span>			
+					</li>
+					<li class="menu">
+						<span class="text">Email-id</span>
+					</li>
+					<li class="menu">
+						<span class="text">Phone No.</span>
+					</li>
+					<li class="menu">
+						<span class="text">Password</span>
+					</li>
+					<li class="menu">
+						<span class="text">Confirm password</span>
+					</li>
+				</ul>
+				<ul class="ul-common">
+					<li class="menu-box">
+						<input type="text" name="address2" id="add2" class="link"><br>			
+					</li>
+					<li class="menu-box">
+						<input type="text" name="email" class="link" id="email"  ><br>			
+					</li>
+					<li class="menu-box">
+						<input type="text" name="phone" id="phone" class="link"><br>			
+					</li>
+					<li class="menu-box">
+						<input type="password" name="pwd" id="pwd" class="link"><br>			
+					</li>
+					<li class="menu-box">
+						<input type="password" name="cpwd" id="cpwd" class="link"><br>			
+					</li>
+				</ul>
+			</div>
+			<div>
+				<ul class="ul-common3">
+					<li class="button">
+						<input type="reset" name="button1" id="b1" class="button-reset">			
+					</li>
+					<li class="button">
+						<input type="button" id="b2" name="button2" value="SUBMIT" class="button-register" onclick = "fun1()" ><br>		
+					</li>
+				</ul>
+			</div>
+		</li>
+		<!-- <li>
+			&nbsp&nbsp&nbsp&nbsp
+		</li> -->
+		
+		<li class="section-right">
+			<ul id="ul-style">
+				<p id='parent-div'> </p>
+				
+					<!-- <a href="#">check</a>
+					<div>ter@kkmk</div> -->
+			</ul>
+		</li>
+		
+	</ul>
+</section>
+<footer class="footer">
+<ul class="footer-section">
+
+	<li> <img src="appdirect_footer.png"></li>
+	<li class="footer-section-l1"> Powered by AppDirect 02009-2017</li>
+
+	<li class="footer-section-l2" >
+	<select  class="footer-section-drop" >
+		<option>English(United States)</option>
+		<option>Hindi</option>
+		<option>Gujrati</option>
+	</select>
+<!-- 		<input type="dropdown" value="English(United States)" style="background-color: black; color: white;padding: 20px;"> -->
+	</li>
+	<li class="footer-section-l3">Help Center</li>
+	<li class="footer-section-l3">Privacy Policy</li>
+	<li class="footer-section-l4">Terms and Conditions</li>
+	<li class="footer-section-l4">Contact</li>
+</ul>
+</footer>
+
+<script type="text/javascript" src="dashboard.js">
+	
+//var dashboard = document.getElementById("b2");
+// function fun1(){
+// 	//alert("hello");
+// 	var ul = document.getElementById("ul-style");
+// 	//document.write("test");
+// 	var firstname=document.getElementById("first-name").value;
+// 	var mail = document.getElementById("email").value;
+
+// 	var a = document.createElement("a");
+// 	a.setAttribute("href","#");
+// 	a.setAttribute("class","asdfg");
+
+// 	var li = document.createElement("li");
+// 	li.setAttribute("class","section-right");
+
+// 	var fstnme = document.createTextNode(firstname);
+// 	a.appendChild(fstname);
+
+// 	var div = document.createElement("div");
+// 	var emailNode = document.createTextNode(mail);
+// 	div.appendChild(emailNode);
+
+// 	li.appendChild(a);
+// 	li.appendChild(div);
+	
+// 	ul.appendC. hild(li);
+
+// 	//dashboard.value(firstname.value);
+
+// }
+
+
+
+
+</script>
+</body>
+</html>
